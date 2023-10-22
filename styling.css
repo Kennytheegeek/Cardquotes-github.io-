@@ -12,11 +12,11 @@ body{
     border-radius:20px;
     box-shadow:0 -2px 5px darkgrey , 0 2px 5px darkgrey;
     background:black;
-    height:600px;
+    height:700px;
     overflow-y:auto;
 }
 .card{
-    min-height:350px;
+    min-height:400px;
     margin:20px 5px 20px 5px;
     padding:20px; 
     background:#ff4900;
@@ -35,7 +35,7 @@ p{
     padding-top:40px;
 }
 .intro{
-    min-height:350px;
+    min-height:400px;
     margin:20px 5px 20px 5px;
     padding:20px; 
     background:#ff4900;
