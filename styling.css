@@ -12,11 +12,13 @@ body{
     border-radius:20px;
     box-shadow:0 -2px 5px darkgrey , 0 2px 5px darkgrey;
     background:black;
-    height:700px;
+    padding:5px;
+    margin:10px;
+    max-height:950px;
     overflow-y:auto;
 }
 .card{
-    min-height:400px;
+    min-height:500px;
     margin:20px 5px 20px 5px;
     padding:20px; 
     background:#ff4900;
@@ -30,12 +32,12 @@ p{
     text-shadow:1.0px 0 yellow;
     font-family:serif;
     font-weight :600;
-    font-size:1.8em;
+    font-size:3.0em;
     text-align:center;
     padding-top:40px;
 }
 .intro{
-    min-height:400px;
+    min-height:500px;
     margin:20px 5px 20px 5px;
     padding:20px; 
     background:#ff4900;
@@ -46,19 +48,20 @@ p{
     box-shadow:0 7px 10px black, 0 -7px 10px black ;
 }
 .quotes{
-    font-size:2.7em;
+    font-size:3.5em;
     font-family :serif;
     font-weight :bold;
     text-align:center;
     padding-top:66px;
     text-shadow:1.0px 0 yellow;
-}
+    }
+    
 .end{
-     font-size:2.2em;
+     font-size:3.2em;
     font-family :serif;
     font-weight :700;
     text-align:center;
-    padding-top:66px;
+    padding-top:46px;
     text-shadow:1.0px 0 yellow;
 }
 .card:nth-child(2){
@@ -82,3 +85,20 @@ p{
 .intro:nth-child(2){
     top:70px;
 }
+
+/* Media Query */
+@media(max-width:720px){
+    .end{
+        font-size:2.8em;
+    }
+    .quotes{
+        font-size:3.0em;
+    }
+    p{
+        font-size:2.2em;
+    }
+    body{
+        padding-top:30px;
+    }
+    }
+    
